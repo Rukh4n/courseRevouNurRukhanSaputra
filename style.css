@@ -1,0 +1,193 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.headerMain {
+	color: #ffffff;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	background-color: #c42828;
+	padding: 35px;
+	border-radius: 50px;
+	margin: 10px;
+}
+.foto{
+	text-align: center;
+}
+img{
+	margin: auto;
+	display: block;
+}
+.fotoProfil{
+	width: 300px;
+	height: 300xp;
+	border-radius: 50%;
+}
+.galery{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+	width: 98%;
+	border: solid 3px;
+	border-radius: 25px;
+	text-align: center;
+}
+.imgGalery{
+	width: 350px;
+}
+.linkWa{
+	border-radius: 25px;
+	margin: 15px 0 ;
+	background-color: #4700ee;
+	width: 250px;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline;
+	margin: 5px 0 5px;
+	padding: 5px 15px 5px;;
+}
+.study{
+	border-radius: 25px;
+	margin: 10px 15px 10px;
+	padding: 25px;
+	text-align: center;
+	border: solid #000000;
+}
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 1fr;
+	background-color: #360061;
+	color: #ffffff;
+	padding: 25px;
+}
+.email{
+	margin: 5px 0 5px;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
+.kolomKomentar{
+	margin: 5px 0 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.button{
+	background-color: #4400ff;
+	color: #ffffff;
+	padding: 5px 25px 5px;
+	display: block;
+}
+
+@media screen and (max-width: 768px) {
+	.headerMain {
+		color: #ffffff;
+		display: grid;
+		grid-template-columns: 1fr;
+		background-color: #c42828;
+		padding: 35px;
+		border-radius: 50px;
+		margin: 10px;
+	}
+	.foto{
+		margin-top: 10px;
+		text-align: center;
+	}
+	.skil{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.study{
+		border-radius: 25px;
+		margin: 10px 15px 10px;
+		padding: 10px;
+		text-align: center;
+		border: solid #000000;
+	}
+	.logoUniv{
+		width: 250px;
+	}
+	.galery{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 98%;
+		border: solid 3px;
+		border-radius: 20px;
+		text-align: center;
+	}
+	.imgGalery{
+		width: 250px;
+	}
+	footer{
+		margin-top: 5px;
+		padding: 15px;
+		display: grid;
+		grid-template-columns: 1fr 1f 1fr;
+		padding: 10px;
+	}
+	.kirimKomentar{
+		margin: 10px 10px 10px;
+	}
+	
+}
+
+@media screen and (max-width: 425px) {
+	.headerMain {
+		color: #ffffff;
+		display: grid;
+		grid-template-columns: 1fr;
+		background-color: #c42828;
+		padding: 35px;
+		border-radius: 50px;
+		margin: 10px;
+	}
+	.foto{
+		margin-top: 10px;
+		text-align: center;
+	}
+	.skil{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.study{
+		border-radius: 25px;
+		margin: 10px 15px 10px;
+		padding: 10px;
+		text-align: center;
+		border: solid #000000;
+	}
+	.logoUniv{
+		width: 250px;
+	}
+	.galery{
+		display: grid;
+		grid-template-columns: 1fr;
+		width: 98%;
+		border: solid 3px;
+		border-radius: 20px;
+		text-align: center;
+	}
+	.imgGalery{
+		width: 250px;
+	}
+	footer{
+		margin-top: 5px;
+		padding: 15px;
+		display: grid;
+		grid-template-columns: 1fr;
+		padding: 10px;
+	}
+	.kirimKomentar{
+		margin: 10px 10px 10px;
+	}
+	
+}
